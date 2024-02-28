@@ -15,7 +15,7 @@
 --| CREATED       : 02/10/2024
 --| DESCRIPTION   : This file simply provides a template for all VHDL assignments
 --|
---| DOCUMENTATION : Include all documentation statements in README.md
+--| DOCUMENTATION : Include all documentation statements in README.md Lt. Col Trimble helped me flip my test case bits.
 --|
 --+----------------------------------------------------------------------------
 --|
