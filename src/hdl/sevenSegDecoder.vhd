@@ -32,10 +32,10 @@ entity sevenSegDecoder is
 end sevenSegDecoder;
 
 architecture Behavioral of sevenSegDecoder is
-    signal d0 : std_logic; -- this is done to make life much easier, it reduces the number of underscores when 
-    signal d1 : std_logic; -- you go and write out the truth tables.
-    signal d2 : std_logic;
-    signal d3 : std_logic;
+    --signal d0 : std_logic; -- this is done to make life much easier, it reduces the number of underscores when 
+    --signal d1 : std_logic; -- you go and write out the truth tables.
+    --signal d2 : std_logic;
+    --signal d3 : std_logic;
     
     signal c_Sa : std_logic;
     signal c_Sb : std_logic;
@@ -47,10 +47,10 @@ architecture Behavioral of sevenSegDecoder is
     
     
 begin
-    d0 <= i_D(0);
-    d1 <= i_D(1);
-    d2 <= i_D(2);
-    d3 <= i_D(3);
+    --d0 <= i_D(0);
+    --d1 <= i_D(1);
+    --d2 <= i_D(2);
+    --d3 <= i_D(3);
     
     
     -- Logic for the turning on of each segment in the seven segment display
